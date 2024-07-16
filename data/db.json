@@ -66,198 +66,526 @@
       }
     ]
   },
-  "damage_inspection": [
+  "inspections": [
     {
       "id": "1",
-      "inspectorId": "1",
-      "location": "hoofdstraat 1, Rotterdam",
+      "inspectorId" : "3",
       "date": "2023-09-19",
-      "newDamage": true,
-      "selectedDamageTypeOption": "normal use",
-      "damageType": "normal use",
-      "emergency": "yes",
-      "comments": "Broken front door.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
-      ]
+      "address": "hoofdstraat 1, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
       "id": "2",
-      "inspectorId": "2",
-      "location": "hoofdstraat 2, Rotterdam",
-      "date": "2023-08-02",
-      "newDamage": "yes",
-      "selectedDamageTypeOption": "wear",
-      "damageType": "wear",
-      "emergency": "no",
-      "comments": "Bedroom curtain rail is broken.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
-      ]
+      "inspectorId" : "3",
+      "date": "2024-08-18",
+      "address": "hoofdstraat 110, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
       "id": "3",
-      "inspectorId": "3",
-      "location": "dorpstraat 3, Rhoon",
-      "date": "2023-11-14",
-      "newDamage": "yes",
-      "selectedDamageTypeOption": "calamity",
-      "damageType": "calamity",
-      "emergency": "yes",
-      "comments": "Sinterklaas riot damage.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg"
-      ]
+      "inspectorId" : "3",
+      "date": "2022-07-01",
+      "address": "dijkhof 1, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
       "id": "4",
-      "inspectorId": "3",
-      "location": "dorpstraat 6, Rhoon",
-      "date": "2023-11-14",
-      "newDamage": "yes",
-      "selectedDamageTypeOption": "other",
-      "damageType": "total destruction",
-      "emergency": "yes",
-      "comments": "Reaper attack",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
-      ]
-    }
-  ],
-  "backlog_maintenance": [
-    {
-      "id": "1",
-      "inspectorId": "1",
-      "location": "hogedijk 4, Hoogvliet",
-      "maintenanceType": "paint",
-      "emergency": "yes",
-      "costIndication": "500-1500",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
-      ]
+      "inspectorId" : "3",
+      "date": "2023-09-19",
+      "address": "hofdijk 197, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
-      "id": "2",
-      "inspectorId": "3",
-      "location": "apollostraat 5, Rotterdam",
-      "maintenanceType": "electric",
-      "emergency": "yes",
-      "costIndication": "1500+",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
-      ]
-    }
-  ],
-  "technical_installation_inspection": [
-    {
-      "id": "1",
-      "inspectorId": "1",
-      "location": "keizerstraat 6, Zuid-Land",
-      "installationType": "heating",
-      "clientStatement": "The heating doesn't work.",
-      "approved": "yes",
-      "comments": "The heater wasn't just faulty. It was missing!!",
-      "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      "id": "5",
+      "inspectorId" : "3",
+      "date": "2021-09-19",
+      "address": "achterharingvliet 58, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
-      "id": "2",
-      "inspectorId": "2",
-      "location": "keizerstraat 10, Zuid-Land",
-      "installationType": "cooling",
-      "clientStatement": "The airco is broken and needs replacement.",
-      "approved": "yes",
-      "comments": "The home owners are elderly and need this urgently for the comming heatwave.",
-      "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"]
+      "id": "6",
+      "inspectorId" : "1",
+      "date": "2023-09-19",
+      "address": "hoofdstraat 1, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
-      "id": "3",
-      "inspectorId": "3",
-      "location": "keizerstraat 12, Zuid-Land",
-      "installationType": "cooling",
-      "clientStatement": "The airco is broken and needs replacement.",
-      "approved": "no",
-      "comments": "The home owners are elderly and need this urgently for the coming heatwave.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
-      ]
+      "id": "7",
+      "inspectorId" : "1",
+      "date": "2024-08-18",
+      "address": "hoofdstraat 110, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
-      "id": "4",
-      "inspectorId": "3",
-      "location": "keizerstraat 6, Zuid-Land",
-      "installationType": "electric",
-      "clientStatement": "All the lights won't work.",
-      "approved": "yes",
-      "comments": "Could take a few days to fix.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg"
-      ]
-    }
-  ],
-  "modifications": [
-    {
-      "id": "1",
-      "inspectorId": "3",
-      "location": "Beatrixstraat 10, Rhoon",
-      "documentedModsDocName": "Test_Procedure.pdf",
-      "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
-      "modifiedBy": "tenant",
-      "modDescription": "The tenant installed an extra airco.",
-      "requiredAction": "inspection",
-      "comments": "We need to check if the installation was done properly.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
-      ]
+      "id": "8",
+      "inspectorId" : "2",
+      "date": "2022-07-01",
+      "address": "dijkhof 1, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
-      "id": "2",
-      "inspectorId": "1",
-      "location": "Beatrixstraat 20, Rhoon",
-      "documentedModsDocName": "Test_Procedure.pdf",
-      "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
-      "modifiedBy": "contractor",
-      "modDescription": "An extra toilet was installed.",
-      "requiredAction": "removal",
-      "comments": "The installation was not done properly and it causes leaks.",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
-      ]
+      "id": "9",
+      "inspectorId" : "2",
+      "date": "2023-09-19",
+      "address": "hofdijk 197, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     },
     {
-      "id": "3",
-      "inspectorId": "2",
-      "location": "Beatrixstraat 29, Rhoon",
-      "documentedModsDocName": "Test_Procedure.pdf",
-      "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
-      "modifiedBy": "unknown",
-      "modDescription": "A higher donkey gate was installed.",
-      "requiredAction": "acceptance",
-      "comments": "A new donkey gate was installed but it doesn't seem to work properly. The donkeys still get out",
-      "images": [
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
-        "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg"
-      ]
+      "id": "10",
+      "inspectorId" : "2",
+      "date": "2021-09-19",
+      "address": "achterharingvliet 58, Rotterdam",
+      "damage_inspection": {
+        "location": "toilet",
+        "newDamage": true,
+        "selectedDamageTypeOption": "normal use",
+        "damageType": "normal use",
+        "emergency": "yes",
+        "comments": "Broken front door.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg"
+        ]
+      },
+      "backlog_maintenance": {
+        "location": "living room",
+        "maintenanceType": "paint",
+        "emergency": "yes",
+        "costIndication": "500-1500",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564657/RealEstateCareMedia/images/shack.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564793/RealEstateCareMedia/images/shed.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564345/RealEstateCareMedia/images/backyard.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564446/RealEstateCareMedia/images/house.jpg"
+        ]
+      },
+      "technical_installation_inspection": {
+        "location": "office",
+        "installationType": "heating",
+        "clientStatement": "The heating doesn't work.",
+        "approved": "yes",
+        "comments": "The heater wasn't just faulty. It was missing!!",
+        "images": ["https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg"]
+      },
+      "modifications": {
+        "location": "pool house",
+        "documentedModsDocName": "Test_Procedure.pdf",
+        "documentedModsUrl": "https://res.cloudinary.com/babylizzyevee/image/upload/v1711289986/RealEstateCareMedia/pdf/Test_Procedure.pdf",
+        "modifiedBy": "tenant",
+        "modDescription": "The tenant installed an extra airco.",
+        "requiredAction": "inspection",
+        "comments": "We need to check if the installation was done properly.",
+        "images": [
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564579/RealEstateCareMedia/images/lava.jpg",
+          "https://res.cloudinary.com/babylizzyevee/image/upload/v1711564718/RealEstateCareMedia/images/building.jpg"
+        ]
+      }
     }
   ]
 }
