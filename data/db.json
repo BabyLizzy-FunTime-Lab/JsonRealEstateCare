@@ -334,7 +334,7 @@
       "address": "hoofdstraat 1, Rotterdam",
       "damage_inspection": {
         "location": "toilet",
-        "newDamage": true,
+        "newDamage": "yes",
         "selectedDamageTypeOption": "normal use",
         "damageType": "normal use",
         "emergency": "yes",
@@ -386,7 +386,7 @@
       "address": "hoofdstraat 110, Rotterdam",
       "damage_inspection": {
         "location": "toilet",
-        "newDamage": true,
+        "newDamage": "yes",
         "selectedDamageTypeOption": "normal use",
         "damageType": "normal use",
         "emergency": "yes",
@@ -438,7 +438,7 @@
       "address": "dijkhof 1, Rotterdam",
       "damage_inspection": {
         "location": "toilet",
-        "newDamage": true,
+        "newDamage": "no",
         "selectedDamageTypeOption": "normal use",
         "damageType": "normal use",
         "emergency": "yes",
@@ -490,7 +490,7 @@
       "address": "hofdijk 197, Rotterdam",
       "damage_inspection": {
         "location": "toilet",
-        "newDamage": true,
+        "newDamage": "no",
         "selectedDamageTypeOption": "normal use",
         "damageType": "normal use",
         "emergency": "yes",
@@ -542,7 +542,7 @@
       "address": "achterharingvliet 58, Rotterdam",
       "damage_inspection": {
         "location": "toilet",
-        "newDamage": true,
+        "newDamage": "yes",
         "selectedDamageTypeOption": "normal use",
         "damageType": "normal use",
         "emergency": "yes",
