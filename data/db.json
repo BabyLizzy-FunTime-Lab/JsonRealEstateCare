@@ -45,9 +45,9 @@
       "avatar": "https://res.cloudinary.com/babylizzyevee/image/upload/c_fill,w_600,h_600,g_auto/v1699873973/RealEstateCareMedia/userAvatars/admin-4_bb8zpz.webp"
     }
   ],
-  "2wayAuthenticator": [
-    {"generatedCode": "123456"}
-  ],
+  "2wayAuthenticator": {
+    "generatedCode": "123456"
+  },
   "base_site_information": {
     "defaultAvatar": "/icons/toolbar/toolbar-default-avatar.svg",
     "knowledgeBase": [
